@@ -1,0 +1,207 @@
+/*Header de todas las Paginas*/
+
+@media(max-width: 950px) {
+    .header {
+        gap: 1rem;
+        .div-header {
+            .div-div-form {
+                display: flex;
+                flex-direction: column;
+                input {
+                    margin-bottom: 0.5rem; 
+                }
+                button {
+                    align-self: flex-start; 
+                }
+            }
+        }
+    }
+}
+@media(max-width: 700px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ul1 {
+            list-style: none;
+            text-align: center;
+            .li {
+                width: $maxwidth;
+                margin-block: 1rem;
+                text-align: center;
+            }
+        }
+        .logo-header {
+            width: $maxwidth;
+            max-width: 300px; 
+            height: auto;
+        }
+        .div-header form button {
+            align-self: center; 
+        }
+    }
+}
+
+/*Pagina de Index*/
+
+@media (max-width: 950px) {
+    .main-index {
+        height: 150vh;
+        .grilla{
+        display: flex;
+        flex-direction: column;
+        max-width: 600px;
+        margin: 0 auto;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .main-index {
+        height: 100vh;
+        .grilla {
+            .grilla-hijo {
+                .link-div-footer{
+                    .grilla-nieto {
+                        display: flex;
+                        align-items: center;
+                        margin: 1rem;
+                        height: 20vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Pagina de Inicar*/
+
+@media (max-width: 600px) {
+    .main-iniciar{
+        .header1{
+            .logo-header2 {
+                height: 30vh;
+                width: 50%;
+            }
+        }
+    }
+    
+}
+@media (max-width: 450px) {
+    .main-iniciar{
+        .header1{
+            .logo-header2 {
+                height: 40vh;
+                width: $maxwidth;
+            }
+        }
+    }
+}
+
+/*Pagina de Lol*/
+
+@media (max-width: 950px) {
+    .section-contenedor {
+        display: flex;
+        flex-direction: column;
+        padding-block: 2rem;
+        .article-section{
+            max-width: 600px;
+            margin: 0 auto;
+            .img-link {
+                width: 20%;
+            }
+        }
+    }
+}
+@media (max-width:650px) {
+    .section-contenedor{
+        .article-section{
+            margin: 0 auto;
+            max-width: 400px;
+        }
+    }
+}
+@media (min-width: 500px) and (max-width: 900px) {
+    .main-lol {
+        height: 70vh;
+        .video {
+            width: $maxwidth;
+            height: 70vh;
+        }
+    }
+
+}
+@media (max-width: 500px) {
+    .main-lol {
+        height: 50vh;
+        .video {
+            width: $maxwidth;
+            height: 50vh;
+        }
+    }
+}
+@media (max-width:430px) {
+    .section-contenedor{
+        .article-section{
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+            .img-link {
+                padding-inline: 6rem;
+                width: $maxwidth;
+            }
+        }
+    }
+}
+
+/*Pagina de Valorant*/
+
+@media (max-width:430px) {
+    .section-contenedor{
+        .article-section{
+            display: flex;
+            flex-direction: column;
+            max-width: 350px;
+            .img-valo {
+                padding-inline: 6rem;
+                width: $maxwidth;
+            }
+        }
+    }
+}
+
+/*Pagina de Lavidaenriot*/
+
+@media (max-width: 1000px) {
+    .main-lavida {
+        height: 120vh;
+        background-size: cover;
+    }
+    .section-main {
+        display: flex;
+        flex-direction: column;
+        .div-div2 {
+            .img-div2 {
+                width:60%;
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .main-lavida {
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .section-main {
+            div {
+                .h2-div3 {
+                    color: $Colorte;
+                    font-size: 3.5rem;
+                    font-family: Lemon;
+               }
+            }
+        }
+    }
+}

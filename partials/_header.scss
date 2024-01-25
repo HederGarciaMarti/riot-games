@@ -1,0 +1,32 @@
+/*Header de todas las Paginas*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-image: linear-gradient(to left, #140f07, #10294c, #096bb4,#08b6ff, #0efff9);
+    font-family: Lemon;
+    .logo-header {
+        height: 7vh;
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+    .ul1 {
+        align-items: center;
+        gap: 2rem;
+        border: 2px solid $Colorck;
+        background-color: $Colorte;
+        border-radius: 10px;
+        transition: 1s;
+        .link-header {
+            padding: 0.7rem;
+            text-decoration: none;
+            color: $Colorck;
+        }
+    }
+    .rotate-hover:hover {
+        background-color: rgb(55, 96, 143);
+        transform: rotate(360deg);
+    }
+}

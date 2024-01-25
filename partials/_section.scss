@@ -1,0 +1,96 @@
+/*Pagina de Lol*/
+
+.section-contenedor {
+    background-image: linear-gradient(to right, #10294c, #096bb4,#10294c);
+    background-size: cover;
+    display: flex;
+    width: $maxwidth;
+    gap: 2rem;
+    .article-section {
+        display: flex;
+        width: $maxwidth;
+        border: 1px solid $Colorck;
+        border-radius: 5px;
+        .img-link {
+            width: 40%;
+        }
+        div{
+            .h2-div {
+                font-size: medium;
+                text-decoration: underline;
+                padding: 8px;
+            }
+            .p-div {
+                font-size: 13px;
+                padding: 8px;
+                color: $Colorte;
+            }
+        }
+    }
+}
+
+/*Pagina de Lol*/
+
+.section-contenedor{
+    .article-section{
+        .img-valo {
+            width: 50%;
+        }        
+    }
+    div{
+        .h2-div2 {
+            color: $Colorte;
+            text-decoration: none;
+        }
+    }
+}
+
+/*Pagina de Lavidaenriot*/
+
+.section-main {
+    display: flex;
+    gap: 2rem;
+    padding: 3rem;
+    .div4 {
+        .h2-div4 {
+            text-align: center;
+            color: #08b6ff;
+        }
+        .p-div4  {
+            margin-block: 2rem;
+            color: $Colorte;
+        }
+        .agrandar {
+            font-size: 1.5rem;
+        }
+    }
+    .div-div2 {
+        width: $maxwidth;
+        text-align: center;
+        .img-div2 {
+            width: 80%;
+        }
+    }
+}
+.sec {
+    background-image: linear-gradient(to left, rgb(36, 36, 36), rgb(71, 71, 71),  rgb(71, 71, 71),rgb(36, 36, 36));
+}
+
+/*Pagina de Oficinas*/
+
+.div5 {
+    background-image: linear-gradient(to left, rgb(182, 159, 60), rgb(89, 131, 50), rgb(36, 100, 36),  rgb(89, 131, 50), rgb(182, 160, 61));
+    .h2-div4 {
+        text-align: center;
+        color: #08b6ff;
+    }
+    .p-div5  {
+        text-align: center;
+        display: inline-block;
+        margin-inline: 6rem;
+        padding: 4px;
+    }
+    .agrandar {
+        font-size: 1.5rem;
+    }
+}
